@@ -13,7 +13,7 @@ export class App {
 
 
   arrayDeTarefas = signal<Tarefa[]>([]);
-  apiURL: string;
+  apiURL : string;
 
   constructor(private http: HttpClient) {
     this.apiURL = 'https://backend-todoapp-hryo.onrender.com';
